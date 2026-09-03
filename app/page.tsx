@@ -1,10 +1,10 @@
 const projectTech = ["React 19", "TypeScript", "Vite", "Supabase", "PostgreSQL", "Vercel", "Git & GitHub", "PWA / Web Push"];
 const features = [
-  ["01", "Agendamento online", "Serviço, data e horário com disponibilidade real."],
+  ["01", "Agendamento online", "Serviços, datas e horas com disponibilidade real."],
   ["02", "Área da cliente", "Acesso, perfil e histórico de agendamentos."],
-  ["03", "Painel administrativo", "Agenda diária, semanal e mensal."],
-  ["04", "Gestão de horários", "Disponibilidade, serviços e bloqueios."],
-  ["05", "Cadastro e histórico", "Clientes, atendimentos e anamnese."],
+  ["03", "Painel administrativo", "Agendamentos, clientes, financeiro, mensagens WhatsApp automáticas."],
+  ["04", "Gestão de horários", "Disponibilidade, gestão e bloqueio de horários."],
+  ["05", "Cadastro e histórico", "Clientes, agendamentos."],
   ["06", "Comunicação", "WhatsApp e notificações Web Push."],
 ];
 export default function Home() {
@@ -17,7 +17,7 @@ export default function Home() {
       <section className="hero" id="inicio">
         <p className="eyebrow"><span /> Em transição para Desenvolvimento de Software</p>
         <h1>Moisés</h1>
-        <p className="hero-line">Transformando aprendizado em<br />soluções digitais reais.</p>
+        <p className="hero-line">Transformando aprendizado em{" "}<br />soluções digitais reais.</p>
         <p className="hero-copy">Construo minha trajetória em tecnologia unindo código, produto e experiência do usuário — com projetos funcionais que resolvem necessidades reais.</p>
         <div className="hero-actions">
           <a className="button button-dark" href="#projeto">Conhecer meu trabalho <span aria-hidden="true">↓</span></a>
